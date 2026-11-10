@@ -1,36 +1,31 @@
-<html>
-    <head>
-        <title>Flexbox Example</title>
-        <style>
-            .container {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                height: 100vh;
-                border: 1px solid #cccccc;
-            }
-            div {
-                background-color: #000000;
-                padding: 20px;
-                border: 1px solid #cccccc;
-            }
-            div:nth-child(1) {
-                background-color: #ff9999;
-            }
-            div:nth-child(2) {
-                background-color: #99ff99;
-            }
-            div:nth-child(3) {
-                background-color: #9999ff;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div>Item 1</div>
-            <div>Item 2</div>
-            <div>Item 3</div>
-        </div>
 
-    </body>
+<html>
+<head>
+    <style>
+        .flex-container {
+            display: flex;
+            width: 200px;
+            background-color: blue;
+            padding: 20px;
+        }
+
+        .flex-container div {
+            width: 200px;
+            background-color: white;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+</body>
+
 </html>
